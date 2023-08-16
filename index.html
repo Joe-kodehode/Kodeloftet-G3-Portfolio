@@ -3,19 +3,64 @@
   <head>
     <title>Joe's portfolio</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </head>
   <body>
-    <img
-      src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1752&q=80"
-    />
+    <header>
+      <a href="https://www.youtube.com/watch?v=hY7m5jjJ9mM"
+        ><iconify-icon class="logo" icon="openmoji:cat"></iconify-icon
+      ></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#welcome"><div class="nav-item">Welcome</div></a>
+          </li>
+          <li>
+            <a href="#projects"><div class="nav-item">Projects</div></a>
+          </li>
+          <li>
+            <a href="#contact"><div class="nav-item">Contact</div></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome" class="container">
+        <h1 class="red">Welcome to Joe's portfolio</h1>
+        <div class="section1-info">
+          <img src="images/joeProfilePic.png" alt="Joe in black and white" />
+          <p>
+            Hi, welcome to my portfolio! Here you can see all the projects I
+            have made during my time at <span class="bold">Kodeloftet! </span>
+          </p>
+        </div>
+      </section>
 
-    <h1>Welcome to Joe's portfolio</h1>
-    <h2>Section 1 - About me</h2>
-    <p>
-      Hi, welcome to my portfolio! Here you can see all the projects I have made
-      during my time at Kodeloftet!
-    </p>
-    <h2>Section 2 - My projects</h2>
-    <h2>Section 3 - Contact me</h2>
+      <section id="projects" class="container">
+        <h2>My projects</h2>
+        <div class="card">
+          <img src="images/food.jpg" alt="" />
+          <h3>Food project</h3>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to contact me for a chat at joe@joescats.no</p>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- List examples -->
+    <ul>
+      <li>milk</li>
+      <li>eggs</li>
+      <li>cola</li>
+    </ul>
+
+    <ol>
+      <li>step one: do this</li>
+      <li>step two: do that</li>
+    </ol>
   </body>
 </html>
